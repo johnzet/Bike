@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name local_library)(type Legacy)(uri C:/Users/johnz/Documents/projects/Bike/Inverter/PCB/local_library.lib)(options "")(descr ""))
+  (lib (name inverter_local_library)(type Legacy)(uri C:/Users/johnz/Documents/projects/Bike/Inverter/PCB/inverter_local_library.lib)(options "")(descr ""))
+)
