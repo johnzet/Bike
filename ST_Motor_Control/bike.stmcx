@@ -111,13 +111,13 @@
 								<item tag="1" text="Active high" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_List" name="U Driver Low side driving signal polarity" enable="false" visible="true" readonly="false" value="1">
+						<var version="1.0" type="MC_List" name="U Driver Low side driving signal polarity" enable="true" visible="true" readonly="false" value="1">
 							<items>
 								<item tag="0" text="Active low" />
 								<item tag="1" text="Active high" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_Bool" name="U Driver enabling signal enable" enable="true" visible="true" readonly="false" value="false" />
+						<var version="1.0" type="MC_Bool" name="U Driver enabling signal enable" enable="false" visible="true" readonly="false" value="false" />
 						<var version="1.0" type="MC_List" name="U Driver enabling signal polarity" enable="false" visible="true" readonly="true" value="1">
 							<items>
 								<item tag="0" text="Active low" />
@@ -130,13 +130,13 @@
 								<item tag="1" text="Active high" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_List" name="V Driver Low side driving signal polarity" enable="false" visible="true" readonly="false" value="1">
+						<var version="1.0" type="MC_List" name="V Driver Low side driving signal polarity" enable="true" visible="true" readonly="false" value="1">
 							<items>
 								<item tag="0" text="Active low" />
 								<item tag="1" text="Active high" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_Bool" name="V Driver enabling signal enable" enable="true" visible="true" readonly="false" value="false" />
+						<var version="1.0" type="MC_Bool" name="V Driver enabling signal enable" enable="false" visible="true" readonly="false" value="false" />
 						<var version="1.0" type="MC_List" name="V Driver enabling signal polarity" enable="false" visible="true" readonly="true" value="1">
 							<items>
 								<item tag="0" text="Active low" />
@@ -149,21 +149,21 @@
 								<item tag="1" text="Active high" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_List" name="W Driver Low side driving signal polarity" enable="false" visible="true" readonly="false" value="1">
+						<var version="1.0" type="MC_List" name="W Driver Low side driving signal polarity" enable="true" visible="true" readonly="false" value="1">
 							<items>
 								<item tag="0" text="Active low" />
 								<item tag="1" text="Active high" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_Bool" name="W Driver enabling signal enable" enable="true" visible="true" readonly="false" value="false" />
+						<var version="1.0" type="MC_Bool" name="W Driver enabling signal enable" enable="false" visible="true" readonly="false" value="false" />
 						<var version="1.0" type="MC_List" name="W Driver enabling signal polarity" enable="false" visible="true" readonly="true" value="1">
 							<items>
 								<item tag="0" text="Active low" />
 								<item tag="1" text="Active high" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_Bool" name="x Driver complemented from high side" enable="true" visible="true" readonly="false" value="true" />
-						<var version="1.0" type="MC_Int" name="x Driver HW inserted dead time" enable="true" visible="true" readonly="false" value="100" />
+						<var version="1.0" type="MC_Bool" name="x Driver complemented from high side" enable="true" visible="true" readonly="false" value="false" />
+						<var version="1.0" type="MC_Int" name="x Driver HW inserted dead time" enable="false" visible="true" readonly="false" value="100" />
 						<var version="1.0" type="MC_Bool" name="xAllDrive" enable="true" visible="true" readonly="false" value="true" />
 						<var version="1.0" type="MC_Bool" name="xAllDriver_signal_enable" enable="true" visible="true" readonly="false" value="false" />
 						<var version="1.0" type="MC_Bool" name="use_STGAP1S" enable="true" visible="true" readonly="false" value="false" />
@@ -381,8 +381,8 @@
 								<item tag="1" text="Turn-off" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_Int" name="Dead time" enable="false" visible="true" readonly="false" value="800" />
-						<var version="1.0" type="MC_List" name="Low sides PWM idle state" enable="false" visible="true" readonly="false" value="1">
+						<var version="1.0" type="MC_Int" name="Dead time" enable="true" visible="true" readonly="false" value="800" />
+						<var version="1.0" type="MC_List" name="Low sides PWM idle state" enable="true" visible="true" readonly="false" value="1">
 							<items>
 								<item tag="0" text="Turn-on" />
 								<item tag="1" text="Turn-off" />
@@ -719,21 +719,21 @@
 								<item tag="110" text="A10" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_List" name="DIO - MCT - Pin - CH1N" enable="false" visible="true" readonly="false" value="2">
+						<var version="1.0" type="MC_List" name="DIO - MCT - Pin - CH1N" enable="true" visible="true" readonly="false" value="2">
 							<items>
 								<item tag="213" text="B13" />
 								<item tag="107" text="A7" />
 								<item tag="508" text="E8" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_List" name="DIO - MCT - Pin - CH2N" enable="false" visible="true" readonly="false" value="2">
+						<var version="1.0" type="MC_List" name="DIO - MCT - Pin - CH2N" enable="true" visible="true" readonly="false" value="2">
 							<items>
 								<item tag="214" text="B14" />
 								<item tag="200" text="B0" />
 								<item tag="510" text="E10" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_List" name="DIO - MCT - Pin - CH3N" enable="false" visible="true" readonly="false" value="2">
+						<var version="1.0" type="MC_List" name="DIO - MCT - Pin - CH3N" enable="true" visible="true" readonly="false" value="2">
 							<items>
 								<item tag="215" text="B15" />
 								<item tag="201" text="B1" />
