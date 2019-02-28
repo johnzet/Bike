@@ -898,13 +898,13 @@
 								<item tag="105" text="A5" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_List" name="DIO - HIT - Pin - CH2" enable="true" visible="true" readonly="false" value="1">
+						<var version="1.0" type="MC_List" name="DIO - HIT - Pin - CH2" enable="true" visible="true" readonly="false" value="0">
 							<items>
 								<item tag="101" text="A1" />
 								<item tag="203" text="B3" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_List" name="DIO - HIT - Pin - CH3" enable="true" visible="true" readonly="false" value="1">
+						<var version="1.0" type="MC_List" name="DIO - HIT - Pin - CH3" enable="true" visible="true" readonly="false" value="0">
 							<items>
 								<item tag="102" text="A2" />
 								<item tag="210" text="B10" />
@@ -1426,7 +1426,7 @@
 								<item tag="1" text="ADC1" />
 							</items>
 						</var>
-						<var version="1.0" type="MC_List" name="AI - BVF - Sens - Pin - ADC Channel" enable="true" visible="true" readonly="false" value="9">
+						<var version="1.0" type="MC_List" name="AI - BVF - Sens - Pin - ADC Channel" enable="true" visible="true" readonly="false" value="3">
 							<items>
 								<item tag="772" text="ADC12_IN4 (A4)" />
 								<item tag="773" text="ADC12_IN5 (A5)" />
